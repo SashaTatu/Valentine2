@@ -3,8 +3,8 @@ body {
     font-size: 15px;
     line-height: 18px;
     color: #000000;
-    background-color: #ffc5b3;
-    background-image: url(img/background.png);
+    background-color: #fdd0cf;
+    background-image: url(img/background.jpeg);
     background-size: cover;
 }
 
@@ -48,6 +48,7 @@ span {
     background-color: white;
     padding: 40px;
     border-radius: 1%;
+
 }
 
 .features p {
@@ -78,24 +79,21 @@ span {
 
 .history {
     margin-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .presents {
     width: 250px;
-    float: right;
+    float: left;
     padding: 10px;
     border:#cccccc;
     border-radius: 30%;
 }
-.tradition-list{
-    padding: auto;
 
-}
-.tradition-item
-.couple {
+.marry {
     width: 300px;
-    float: left;
-    padding: 20px;
+    float: right;
+    padding: 10px;
     border:#cccccc;
     border-radius: 30%;
 }
@@ -104,4 +102,34 @@ span {
     display: flex;
     justify-content: center;
     color: #999999;
+}
+
+.tradition-list {
+    padding: 0;
+    list-style: none;
+  }
+
+
+.tradition-item {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    border-left: 10px solid #ffa4c0;
+    color: #000000;
+}
+  
+.standard {
+    border-color:#ff92b3;
+    color: rgb(0, 0, 0);
+}
+.par {
+    border-color:#ff80a6;
+    color: rgb(0, 0, 0);
+}
+.vip {
+    border-color: #ff6e9a;
+    color: rgb(0, 0, 0);
+}
+.parb {
+    border-color:#ff5c8d;
+    color: rgb(0, 0, 0);
 }
