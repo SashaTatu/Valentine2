@@ -146,9 +146,9 @@ span {
     padding: 10px 20px;
 }
 #p_wishes {
-    height: auto;
+    height: 140px;
     font-size: 25px;
-    line-height: 20px;
+    line-height: 40px;
     color: #ff6e9a;
     text-align: justify;
 }
