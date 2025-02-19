@@ -133,3 +133,9 @@ span {
     border-color:#ff5c8d;
     color: rgb(0, 0, 0);
 }
+#btn_wishes {
+    padding: auto;
+    border-color:#ff5c8d;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
