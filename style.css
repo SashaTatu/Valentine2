@@ -101,7 +101,7 @@ span {
 .site-footer {
     display: flex;
     justify-content: center;
-    color: #999999;
+    color: #ffffff;
 }
 
 .tradition-list {
@@ -133,9 +133,22 @@ span {
     border-color:#ff5c8d;
     color: rgb(0, 0, 0);
 }
-#btn_wishes {
-    padding: auto;
-    border-color:#ff5c8d;
-    color: rgb(0, 0, 0);
+.wishes {
+    margin-top: 30px;
     text-align: center;
+}
+#btn_wishes {
+    background:#ff80a6 ;
+    border:5px solid #ffa4c0;
+    color: rgb(255, 255, 255);
+    cursor:pointer;
+    font-size: large;
+    padding: 10px 20px;
+}
+#p_wishes {
+    height: auto;
+    font-size: 25px;
+    line-height: 20px;
+    color: #ff6e9a;
+    text-align: justify;
 }
