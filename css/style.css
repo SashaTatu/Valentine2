@@ -98,12 +98,6 @@ span {
     border-radius: 30%;
 }
 
-.site-footer {
-    display: flex;
-    justify-content: center;
-    color: #ffffff;
-}
-
 .tradition-list {
     padding: 0;
     list-style: none;
@@ -137,6 +131,7 @@ span {
     margin-top: 30px;
     text-align: center;
 }
+/*Кнопка побажань*/
 #btn_wishes {
     background:#ff80a6 ;
     border:5px solid #ffa4c0;
@@ -145,10 +140,31 @@ span {
     font-size: large;
     padding: 10px 20px;
 }
+/*Секція випадкових побажань*/
 #p_wishes {
     height: 40px;
     font-size: 25px;
     line-height: 40px;
     color: #ff6e9a;
     text-align: justify;
+}
+
+/*Підвал сайту*/
+.site-footer {
+    display: flex;
+    justify-content:space-between;
+    color: #ffffff;
+}
+
+.site-footer p {
+    background-color: #ff80a6;
+    padding: 10px 20px;
+    border-radius: 0px 10px;
+    border:1px solid #ffa4c0;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+.site-footer p:last-child {
+    cursor: progress;
 }
