@@ -4,7 +4,7 @@ body {
     line-height: 18px;
     color: #000000;
     background-color: #fdd0cf;
-    background-image: url(img/background.jpeg);
+    background-image: url(../img/background.jpeg);
     background-size: cover;
 }
 
@@ -64,17 +64,17 @@ span {
 
   .feature-kitten {
     padding-top: 60px;
-    background-image: url("img/valentines.png");
+    background-image: url("../img/valentines.png");
   }
   
   .feature-cat {
     padding-top: 60px;
-    background-image: url("img/romantic-dinner-4233556.png");
+    background-image: url("../img/romantic-dinner-4233556.png");
   }
   
   .feature-train {
     padding-top: 60px;
-    background-image: url("img/flower-bouquet-6644645.png");
+    background-image: url("../img/flower-bouquet-6644645.png");
   }
 
 .history {
