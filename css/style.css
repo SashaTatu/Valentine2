@@ -133,12 +133,15 @@ span {
 }
 /*Кнопка побажань*/
 #btn_wishes {
-    background:#ff80a6 ;
+    background:#ff6e9a ;
     border:5px solid #ffa4c0;
     color: rgb(255, 255, 255);
     cursor:pointer;
     font-size: large;
     padding: 10px 20px;
+}
+#btn_wishes:hover {
+    background-color: #eb668e;
 }
 /*Секція випадкових побажань*/
 #p_wishes {
@@ -157,7 +160,7 @@ span {
 }
 
 .site-footer p {
-    background-color: #ff80a6;
+    background-color: #ff6e9a;
     padding: 10px 20px;
     border-radius: 0px 10px;
     border:1px solid #ffa4c0;
@@ -165,6 +168,12 @@ span {
     cursor: pointer;
 
 }
+#btn-buy-hearts:hover {
+    background-color: #eb668e;
+}
 .site-footer p:last-child {
-    cursor: progress;
+    cursor: pointer;
+}
+#count-of-hearts:hover {
+    background-color: #eb668e;
 }
