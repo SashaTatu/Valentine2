@@ -22,12 +22,32 @@ const arrayOfLoveWishes = [
     "Бажаю багато тепла, розуміння і гармонії у відносинах.",
     "Нехай ваше кохання буде яскравим, як найкрасивіший схід сонця!"
   ];
-  
+let countOfHearts = 5
+console.log('countOfHearts ' + countOfHearts)
+
+document.getElementById('count-of-hearts').innerText = '🧡'.repeat(countOfHearts)
 
 document.getElementById('btn_wishes').addEventListener('click', () =>  {
    console.log('Button clicked');
 
     let index = Math.floor(Math.random() * arrayOfLoveWishes.length)
-    console.log('Номер елементу масиву - ', index);
+    //console.log('Номер елементу масиву - ', index);
     document.getElementById('p_wishes').innerText = arrayOfLoveWishes[index];
+
+    countOfHearts--
+    console.log('countOfHearts ' + countOfHearts)
+    document.getElementById('count-of-hearts').innerText = '🧡'.repeat(countOfHearts) + '🤍'.repeat(5-countOfHearts)
+
+    if(countOfHearts == 0) {
+      document.getElementById('btn_wishes').style.display = 'none'
+    }
+})
+
+document.getElementById('btn-buy-hearts').addEventListener('click', () =>  {
+  countOfHearts = 5
+  document.getElementById('count-of-hearts').innerText = '🧡'.repeat(countOfHearts)
+  document.getElementById('btn_wishes').style.display = 'inline-block'
+  document.getElementById('p_wishes').innerText = ''
+
+  console.log('btn_buy-hearts clicked')
 })
