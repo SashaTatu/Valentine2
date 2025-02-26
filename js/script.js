@@ -47,7 +47,9 @@ document.getElementById('btn_wishes').addEventListener('click', () =>  {
     }
 })
 document.getElementById('count-of-hearts').addEventListener('click', () =>{
-  alert('Придбати сердечка можна натиснувши кнопку "Купити🧡"')
+  if(countOfHearts == 0) {
+    alert('Придбати сердечка можна натиснувши кнопку "Купити🧡"')
+  }
 })
 
 document.getElementById('btn-buy-hearts').addEventListener('click', () =>  {
