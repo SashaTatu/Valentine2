@@ -31,8 +31,11 @@ document.getElementById('btn_wishes').addEventListener('click', () =>  {
    console.log('Button clicked');
 
     let index = Math.floor(Math.random() * arrayOfLoveWishes.length)
+   
     //console.log('Номер елементу масиву - ', index);
     document.getElementById('p_wishes').innerText = arrayOfLoveWishes[index];
+    let a = Math.floor(Math.random())
+    console.log('a ' + a)
 
     countOfHearts--
     console.log('countOfHearts ' + countOfHearts)
@@ -40,7 +43,11 @@ document.getElementById('btn_wishes').addEventListener('click', () =>  {
 
     if(countOfHearts == 0) {
       document.getElementById('btn_wishes').style.display = 'none'
+      document.getElementById('count-of-hearts').innerText = ' Придбайте нові сердечка🧡'
     }
+})
+document.getElementById('count-of-hearts').addEventListener('click', () =>{
+  alert('Придбати сердечка можна натиснувши кнопку "Купити🧡"')
 })
 
 document.getElementById('btn-buy-hearts').addEventListener('click', () =>  {
