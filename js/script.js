@@ -46,7 +46,7 @@ document.getElementById('btn_wishes').addEventListener('click', () =>  {
 
   let randomIMG = Math.floor(Math.random()*5)+1
   console.log('randomIMG '+ randomIMG);
-  document.getElementById('p-love-img').innerHTML = `<img src = 'img/gallery/${randomIMG}.png' alt = "Heart for U">`
+  document.getElementById('p-love-img').innerHTML = `<img src = "../img/gallery/${randomIMG}.png" alt = "Heart for U">`
 
   document.getElementById('p-love-img').style.display = 'flex'
 
