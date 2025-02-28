@@ -168,6 +168,11 @@ span {
     cursor: pointer;
 
 }
+#p-love-img {
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+}
 #btn-buy-hearts:hover {
     background-color: #eb668e;
 }
