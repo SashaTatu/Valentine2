@@ -44,7 +44,7 @@ document.getElementById('btn_wishes').addEventListener('click', () =>  {
   document.getElementById('count-of-hearts').innerText = '🧡'.repeat(countOfHearts) + '🤍'.repeat(5-countOfHearts)
 
 
-  let randomIMG = Math.floor(Math.random()*14)+1
+  let randomIMG = Math.floor(Math.random()*13)+1
   console.log('randomIMG '+ randomIMG);
   document.getElementById('love-img').src = `img/gallery/${randomIMG}.png`;
   document.getElementById('love-img').alt = "Heart for U";
