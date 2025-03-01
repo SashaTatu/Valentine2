@@ -46,9 +46,10 @@ document.getElementById('btn_wishes').addEventListener('click', () =>  {
 
   let randomIMG = Math.floor(Math.random()*5)+1
   console.log('randomIMG '+ randomIMG);
-  document.getElementById('p-love-img').innerHTML = `<img src = "img/gallery/${randomIMG}.png" alt = "Heart for U">`
+  document.getElementById('love-img').src = `img/gallery/${randomIMG}.png`;
+  document.getElementById('love-img').alt = "Heart for U";
 
-  document.getElementById('p-love-img').style.display = 'flex'
+  document.getElementById('love-img').style.display = 'flex'
 
   if(countOfHearts == 0) {
     document.getElementById('btn_wishes').style.display = 'none'
@@ -67,7 +68,7 @@ document.getElementById('btn-buy-hearts').addEventListener('click', () =>  {
   document.getElementById('count-of-hearts').innerText = '🧡'.repeat(countOfHearts)
   document.getElementById('btn_wishes').style.display = 'inline-block'
   document.getElementById('p_wishes').innerText = ''
-  document.getElementById('p-love-img').style.display = 'none'
+  document.getElementById('love-img').style.display = 'none'
 
   console.log('btn_buy-hearts clicked')
 })

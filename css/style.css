@@ -170,8 +170,9 @@ span {
 }
 #p-love-img {
     display: flex;
-    justify-content: center;
-    padding: 10px 10px;
+    justify-content: center; 
+    align-items: center; 
+    height: 80px;
 }
 #btn-buy-hearts:hover {
     background-color: #eb668e;
